@@ -11,5 +11,7 @@ export default defineCliConfig({
      * Learn more at https://www.sanity.io/docs/cli#auto-updates
      */
     autoUpdates: true,
-  }
+    appId: 'cwuzul7ye73c7uonqxbcng5l',
+  },
+  studioHost: "radiance-reach"
 })

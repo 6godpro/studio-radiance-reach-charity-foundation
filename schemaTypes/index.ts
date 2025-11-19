@@ -1,5 +1,5 @@
 import {eventType} from './eventType'
 import {photoType} from './photoType'
-import {upcomingEvent} from './upcomingEventType'
+import {upcomingEventType} from './upcomingEventType'
 
-export const schemaTypes = [eventType, photoType, upcomingEvent]
+export const schemaTypes = [eventType, photoType, upcomingEventType]

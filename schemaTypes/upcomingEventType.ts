@@ -13,7 +13,7 @@ export const upcomingEventType = defineType({
     }),
 
     defineField({
-      name: 'date',
+      name: 'expiryDate',
       type: 'datetime',
       title: 'Event Date',
       validation: (rule) => rule.required(),

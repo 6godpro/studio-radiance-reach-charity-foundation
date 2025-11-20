@@ -13,6 +13,13 @@ export const upcomingEventType = defineType({
     }),
 
     defineField({
+      name: 'bannerMessage',
+      type: 'string',
+      title: 'Event Banner Message',
+      validation: (rule) => rule.required(),
+    }),
+
+    defineField({
       name: 'expiryDate',
       type: 'datetime',
       title: 'Event Date',
